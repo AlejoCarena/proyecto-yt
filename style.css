@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100dvh;
+}
+
+.logo img{
+    width: 100px;
+    margin: 20px;
+}
+.container-input{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+}
+.container-input h1{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+.container-input{
+    width: 100%;
+}
+#channelForm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.info h3{
+    color: grey;
+    font: menu;
+}
+#channelForm{
+    width: 50%;
+}
+.button{
+    border-style: none;
+    height: 37px;
+    border-radius: 15px;
+    background-color: #ff0000;
+    transition: background-color 2s ease;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #880101;
+}
+.container-input input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.container input:focus{
+    outline-style: none;
+}
+.container-output{
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+}
+.container-output img{
+    border-radius: 50%;
+    margin: 15px;
+}
+.info{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
